@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: URL("../images/bg-body.png");
+}
+
+.menu-acceso{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    margin-right: 20px;
+}
+
+.navprincipal{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 180px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.banner img {
+    display: flex;
+    justify-content: center;
+    width: 1180px;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.indice{
+    list-style: none;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #444;
+    align-items: center;
+    color: #666;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    box-sizing: border-box;
+    width: 180px;
+    height: 50px;
+    padding: 0;
+    margin-right: 20px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+
+.indice-no-margin{
+    list-style: none;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #444;
+    align-items: center;
+    color: #666;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    box-sizing: border-box;
+    width: 180px;
+    height: 50px;
+    padding: 0;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+
+.navegacion{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+.fotos {
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: 380px;
+    padding: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.fotos:first-child{
+    margin-left: 0;
+}
+.fotos:last-child{
+    margin-right: 0;
+}
+
+.fotos img {
+    height: fit-content;
+    width: 380px; 
+}
+
+.fotos p {
+    font-size:15px;
+    align-self: start; 
+}
+
+.fotos h2 {
+    font-size: large;
+    align-self: start;
+}
+
+.fotos h3 {
+    background-color: #444;
+    padding: 12px;
+    justify-content: space-around;
+    font-size: medium;
+    color:#666;
+    font-weight: light;
+    width: fit-content;
+    align-self: start;
+    margin-bottom: 30px;
+}
+
+.padre{
+    display: flex;
+    flex-direction: row; 
+}
+
+.abajo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(200,0,0);
+    border-radius: 10px 10px 0 0;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    color: white;
+    font-weight: bold;
+}
+
